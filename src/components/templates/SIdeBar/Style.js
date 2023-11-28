@@ -10,6 +10,10 @@ export const SideBarContainer = styled.aside`
 
 export const Menu = styled.div`
   width: 100%;
+  &:hover {
+    background: gray;
+    color: white;
+  }
 `;
 
 export const Text = styled.span`
